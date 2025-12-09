@@ -4,7 +4,7 @@ const button = document.getElementById("changeMessageButton");
 
 //2.メッセージ一覧を配列で管理
 const messages = [
-    "Javasctript準備出来ました!",
+    //"Javasctript準備出来ました!",//
     "ボタンが押されました!🎉",
     "いい感じです",
     "何度でも変わるよ",
