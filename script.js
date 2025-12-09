@@ -4,10 +4,10 @@ const button = document.getElementById("changeMessageButton");
 
 //2.メッセージ一覧を配列で管理
 const messages = [
-    //"Javasctript準備出来ました!",//
-    "ボタンが押されました!🎉",
-    "いい感じです",
-    "何度でも変わるよ",
+    "Javascript準備出来ました!",
+    "少しずつ成長中...",
+    "コードで世界を広げて行く",
+    "今日の一歩が半年後の仕事に繋がる",
 ];
 
 //3.今どれを表示しているか（最初は０）
