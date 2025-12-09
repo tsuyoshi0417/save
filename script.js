@@ -3,7 +3,7 @@ const message = document.getElementById('message');
 const button = document.getElementById("changeMessageButton");
 
 //2.メッセージ一覧を配列で管理
-const messages = [
+const message = [
     "Javascript準備出来ました!",
     "少しずつ成長中...",
     "コードで世界を広げて行く",
