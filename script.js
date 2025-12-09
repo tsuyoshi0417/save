@@ -12,16 +12,16 @@ const message = [
 
 //3.今どれを表示しているか（最初は０）
 let index = 0;
-message.textContent = messages[index];
+message.textContent = message[index];
 
 //4.ボタンが押された時の動き
 button.addEventListener("click", () => {
     //インデックスを1つ進める
     index++;
     //配列の長さを超えたら0に戻す
-    if (index >= messages.length) {
+    if (index >= message.length) {
         index = 0;
     }
     //メッセージを更新
-    message.textContent = messages[index];
+    message.textContent = message[index];
 });
