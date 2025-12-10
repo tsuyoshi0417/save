@@ -2,7 +2,7 @@
 const message = document.getElementById('message');
 
 // 危険；nullのtextcontentを書き換える
-textContent ="こんにちは！";
+message.textContent ="こんにちは！";
 
 const button = document.getElementById("changeMessageButton");
 
