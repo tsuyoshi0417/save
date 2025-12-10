@@ -16,7 +16,7 @@ let index = 0;
 //*Aパターン;null チェックを入れた安全な書き方
 if (messageElement) {
    //最初のメッセージ
-    messageElement.textContent = message[index];
+    messageElement.textContent = messages[index];
 
     //4.ボタンが押された時の動き
     button.addEventListener("click", () => {
