@@ -21,10 +21,7 @@ if (messageElement && button) {
   // ボタンが押された時の動き
   button.addEventListener("click", () => {
     // インデックスを1つ進める（0,1,2,3,0,1,2,3…とループ）
-    index = index + 1;
-    if (index >= messages.length) {
-      index = 0;
-    }
+    index = (index + 1) % messages.length;
 
     // メッセージを更新
     messageElement.textContent = messages[index];

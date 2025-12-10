@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>最初のアプリ</title>
-  </head>
-  <body>
-   <div class="card">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>最初のアプリ</title>
+  <!-- CSSファイルにもバージョンパラメータを付与 -->
+  <link rel="stylesheet" href="style.css?ver=1" />
+</head>
+<body>
+  <div class="card">
     <!--1 名前　-->
     <h1>言ノ葉　珈琲</h1>
 
@@ -14,13 +16,13 @@
     <p class="subtitle">フリーランスエンジニアを目指して修行中</p>
 
     <!--3 メッセージ表示エリア-->
-    <P id="message">ここに表示されます</P>
+    <p id="message">ここに表示されます</p>
 
     <!--4 ボタン-->
     <button id="changeMessageButton">押すと変わるよ</button>
 
-    <!-- javascript.jpを一番下で読み込む　-->
-    <script src="script.js?ver=1"></script>
-   </div>
+    <!-- script.jsを一番下で読み込む　-->
+  </div>
+  <script src="script.js?ver=1"></script>
 </body>
 </html>
