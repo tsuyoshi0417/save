@@ -2,9 +2,8 @@
 const message = document.getElementById('message');
 
 // 危険；nullのtextcontentを書き換える
-if (message){
-    textContent ="こんにちは！";
-}
+textContent ="こんにちは！";
+
 const button = document.getElementById("changeMessageButton");
 
 //2.メッセージ一覧を配列で管理
