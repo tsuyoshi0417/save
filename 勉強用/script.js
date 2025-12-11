@@ -27,3 +27,29 @@ if (messageElement && button) {
     messageElement.textContent = messages[index];
   });
 }
+
+
+
+const messages = ["こんにちは", "ありがとう", "また来てね"];
+
+let index = 0;//関数の外で宣言
+
+function changeMessage() {
+  // ここに書く
+const box = document.getElementById("message");
+
+//メッセージを画面で表示
+box.textContent = messages[index];
+
+//次の番号へ勧める
+index = (index + 1);
+
+//もし最後まで行ったら０に戻す
+if (index >= messages.length) {
+  index = 0;
+}
+
+button.addEventListener("click", () => {
+  // ここで changeMessage() を呼ぶ
+    changeMessage();
+});
