@@ -12,3 +12,8 @@ nextbutton.addEventListener('click', () => {
     index(index+1) % images.length;
     slideImage.src = images[index ]
 });
+// 「戻る」ボタン
+prevButton.addEventListener('click', () => {
+    index = (index - 1 + images.length) % images.length;
+    slideImage.src = images[index];
+});
