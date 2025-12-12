@@ -6,12 +6,16 @@
     <title>画像スライダー</title>
 </head>
 <body>
-   
     <div class="slider">
+        <!-- 最初の画像。実際のファイル名に合わせる -->
         <img id="slideImage" src="images/image1.jpeg" alt="スライド画像">
     </div>
-    <button>戻る</button>
-    <button>次へ</button>
-<script src="./slider.js"></script>
+
+    <!-- ボタンに id を付ける -->
+    <button id="prevButton">戻る</button>
+    <button id="nextButton">次へ</button>
+
+    <!-- 💡 HTML が全部読み込まれた「あと」で JS を読む -->
+    <script src="./slider.js"></script>
 </body>
 </html>
