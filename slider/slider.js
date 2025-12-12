@@ -5,8 +5,8 @@ const nextbutton = document.getElementById('nextButton');
 
 const images = [
     'images/image1.jpeg',
-    'images/photo2.jpg',
-    'images/photo3.jpg',
+    'images/image2.jpeg',
+    'images/image3.jpeg',
 ];
 nextbutton.addEventListener('click', () => {
     index+1;
