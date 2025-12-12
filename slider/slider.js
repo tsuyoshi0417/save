@@ -9,6 +9,6 @@ const images = [
     'images/image3.jpeg',
 ];
 nextbutton.addEventListener('click', () => {
-    index+1;
+    index(index+1) % images.length;
     slideImage.src = images[index ]
 });
