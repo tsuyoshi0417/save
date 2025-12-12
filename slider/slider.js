@@ -14,7 +14,6 @@ const images = [
 
 // 「次へ」ボタン
 nextButton.addEventListener('click', () => {
-    // index+1; だと値が変わらないので…
     index = (index + 1) % images.length; // 0→1→2→0→…
     slideImage.src = images[index];
 });
